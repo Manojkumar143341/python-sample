@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form method="POST" action="/cgi-bin/form_handler.py">
+        Name: <input type="text" name="name" required><br><br>
+        Message: <textarea name="message" required></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
